@@ -23,11 +23,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://eterniasv.com"),
   title: {
-    default: "Eternia | Wedding Planner & Event Planner El Salvador #1 | Planificación de Bodas",
-    template: "%s | Eternia - Wedding & Event Planner El Salvador",
+    default: "Eternia | Wedding & Event Planner en El Salvador",
+    template: "%s | Eternia",
   },
-  description:
-    "Eternia - El mejor wedding planner y event planner en El Salvador 🇸🇻. Planificación profesional de bodas elegantes, XV años, bautizos, eventos corporativos y sociales. Organizamos tu evento de ensueño en San Salvador. Wedding planner certificado, bodas destino, eventos de lujo. ✨ Contacto: +503 contacto@eterniasv.com",
+ description:
+"Eternia convierte tu sueño en realidad creando y planificando bodas y eventos con magia y elegancia desde propuestas de matrimonio quince años bautizos hasta eventos corporativos cuidando cada detalle para una celebración inolvidable.",
   keywords: [
     "wedding planner El Salvador",
     "wedding planner",
@@ -58,6 +58,7 @@ export const metadata: Metadata = {
     "coordinador de bodas",
     "mejor wedding planner El Salvador",
     "wedding planner profesional",
+    "Eternia",
     "bodas de ensueño",
   ],
   authors: [{ name: "Eternia Event Planning", url: "https://eterniasv.com" }],
@@ -77,7 +78,7 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
   openGraph: {
-    title: "Eternia | Wedding & Event Planner El Salvador #1 | Planificación de Bodas",
+    title: "Eternia | Wedding & Event Planner El Salvador",
     description:
       "El mejor wedding planner y event planner en El Salvador. Bodas elegantes, XV años, eventos corporativos. Transformamos tu sueño en realidad. Contacto: contacto@eterniasv.com",
     type: "website",
@@ -95,7 +96,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eternia | Wedding & Event Planner El Salvador #1",
+    title: "Eternia | Wedding & Event Planner El Salvador",
     description:
       "El mejor wedding planner en El Salvador. Tu sueño a realidad. Bodas elegantes, XV años, eventos corporativos.",
     images: ["/images/wedding-elegant-reception.jpg"],
@@ -110,9 +111,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  verification: {
-    google: "tu-codigo-google-search-console",
   },
   alternates: {
     canonical: "https://eterniasv.com",
@@ -158,7 +156,7 @@ export default function RootLayout({
               description:
                 "El mejor wedding planner y event planner en El Salvador. Planificación de bodas, XV años, eventos corporativos y sociales.",
               url: "https://eterniasv.com",
-              logo: "https://eterniasv.com/images/wedding-elegant-reception.jpg",
+              logo: "https://eterniasv.com/favicon.ico",
               image: "https://eterniasv.com/images/wedding-elegant-reception.jpg",
               telephone: "+503-xxxx-xxxx",
               email: "contacto@eterniasv.com",
