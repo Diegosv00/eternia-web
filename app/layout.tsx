@@ -145,6 +145,22 @@ export default function RootLayout({
         <meta name="language" content="Spanish" />
         <meta name="revisit-after" content="7 days" />
 
+        {/* Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-RY8MW9PT86"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-RY8MW9PT86');
+            `,
+          }}
+        />
+
         {/* Schema.org para Google */}
         <script
           type="application/ld+json"
